@@ -15,8 +15,6 @@
 			<class name="PracticeClass">
 
 				<methods>
-
-
 					<include name="test3"></include>
 					<include name="test1"></include>
 					<exclude name="test4"></exclude>
@@ -24,5 +22,13 @@
 				</methods>
 			</class>
 		</classes>
+	</test>
+
+	<test name="test2">
+
+		<packages>
+			<package name="package2"></package>
+		</packages>
+
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
