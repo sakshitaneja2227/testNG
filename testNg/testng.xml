@@ -24,6 +24,7 @@
 		</classes>
 	</test>
 
+<parameter name="parameter1" value="parameterValue1"/>
 	<test name="test2">
 
 		<groups>
@@ -36,7 +37,6 @@
 				<include name="broken"></include>
 			</run>
 		</groups>
-
 
 
 		<packages>

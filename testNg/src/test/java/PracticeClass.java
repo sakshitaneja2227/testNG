@@ -4,13 +4,13 @@ import org.testng.annotations.Test;
 
 public class PracticeClass {
 	
-	@Test(groups="regression")
+	@Test(groups="regression.sit1")
 	public void test1()
 	{
 		System.out.println("Inside Test1");
 	}
 	
-	@Test(groups="regression")
+	@Test(groups="regression.sit2")
 	public void test2()
 	{
 		System.out.println("Inside Test2");
