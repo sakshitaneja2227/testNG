@@ -3,17 +3,17 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test" preserve-order="false"
 		parallel="methods">
-		
-			<groups>
-					<run>
-						<include name="regression"></include>
-					</run>
-				</groups>
-		
+
+		<groups>
+			<run>
+				<include name="regression"></include>
+			</run>
+		</groups>
+
 
 		<classes>
 			<class name="PracticeClass">
-			
+
 				<methods>
 
 
